@@ -1,0 +1,25 @@
+======================================================
+ University of Alberta
+ Department of Computing Science
+ CMPUT 229 - Winter 2015
+======================================================
+
+**** Test cases for lab 3: IP v4 packets **** 
+
+DISCLAIMER: These test cases are provided as-is for 
+your personal use and for debugging purposes. Passing
+all the test cases DOES NOT guarantee any marks in
+your final submission, as we use different test cases
+(purposely) than the ones hereby provided. It is your
+responsibility to check the lab specification and the
+marksheet to ensure you meet all the criteria. 
+
+These test cases are designed with checksum calculation 
+in mind and may not be useful for other debugging 
+purposes.
+
+USAGE
+
+1. chmod a+x runAllTests.sh
+2. ./runAllTests.sh <solution_file_name>
+3. Check the output on the screen. 

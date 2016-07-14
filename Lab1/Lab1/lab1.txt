@@ -1,0 +1,76 @@
+#---------------------------------------------------------------
+# Assignment:           1
+# Due Date:             January 26, 2015
+# Name:                 Ronghao Yang(Steve Yang)
+# Unix ID:              1434313
+# Lecture Section:      B1
+# Instructor:           Jeeva Paudel
+# Lab Section:          H01 (Monday 1400-1650)
+#---------------------------------------------------------------
+
+Question 1:
+    	Number = 35
+
+Question 2:
+	The maximum value in hex of register t0 is 0x000000d3
+
+Question 3:
+    	The value of the PC immediately before the execution of the instruction that increments register $t0 to its maximum value is 0x00400038
+
+Question 4:
+    	The load word was executed 7 times, the values loaded are 3($4),14($9),22($9),34($9),56($9),13($9),0($9) representatively.
+
+Question 5:
+	0X10010018  N
+      	0X10010019  u
+	0x1001001a  m
+	0x1001001b  b
+	0x1001001c  e
+	0x1001001d  r
+
+Question 6:
+	3,D,NUL,<
+
+Question 7:
+	860094524
+
+Question 8:
+	.word:
+		Stores numbers into a sequence of memory
+		21:0x10010000
+		88:0x10010004
+		-5:0x10010008
+		-10:0x1001000c
+
+	.byte:
+		Stores the two values into a sequence of memory
+		10:0X10010010
+		'c':0x10010011
+
+	.align:
+		Align the pointer to two bytes after the current memory.
+
+	.space:
+		Allocates 9 bytes of memory in the current memory segment.
+
+	.asciiz:
+		Store string "ABCD" to the memory and ends with a null terminator.
+		A:0x1001001d
+		B:0x1001001e
+		C:0x1001001f
+		D:0x10010020
+		NULL:0x10010021
+
+	.ascii:
+		Store "EF" in the memory right after the memory of the NULL terminator
+		E:0x10010022
+		F:0x10010023
+
+Question 9:
+	print $16
+	or
+	print $s0
+
+Question 10:
+	use a timer to control the runtime of the converting subroutine will only convert the number of integers we want. 
+
